@@ -1,0 +1,12 @@
+digraph ColoredTree {
+	node [fontname="sans-serif" shape=box style="filled,rounded"]
+	A [label="Root Node" fillcolor=lightblue]
+	B [label="Left Child" fillcolor=lightgreen]
+	C [label="Right Child" fillcolor="#ffcccb"]
+	D [label="Leaf 1" fillcolor=lightyellow]
+	E [label="Leaf 2" fillcolor=lightyellow]
+	A -> B
+	A -> C
+	B -> D
+	B -> E
+}
